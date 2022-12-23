@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tatto Porto</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+   
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<script>
+    //alert("Site em construção")
+</script>
+<body>
+<header>
+   
+    <div class="whats">
+        <a href="https://wa.me/5541991285367"><img src="https://img.icons8.com/color/48/000000/whatsapp--v3.png"/></a>
+    </div>
+
+        <nav class="navbar navbar-dark navbar-expand-sm text-primary">
+            <div class="container-fluid">
+                <div class="navbar-brand">
+                    <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                </div>
+                <button class="navbar-toggler bg-dark 
+                " type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header menu">
+                        <div class="offcanvas-title" id="offcanvasNavbarLabel">
+                            <img src="assets/img/logo.svg" alt="">
+                        </div>
+                        <button type="button" class="btn-close text-reset bg-light mt-5" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body menu ">
+
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active text-dark" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-dark" aria-current="page" href="tatuadores.html">Tatuadores</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="tatuagens.html">Tatuagens</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="Contato.html">Contato</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="studio.html">Studio</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+</header>
+<main>
+    <section>
+        <div class="img_tela_principal">
+            <img  src="assets/img/tela_inicio.jpg" alt="">
+            <div class="nome_tela animate__animated animate__fadeInLeft">
+                <h1>HOME</h1>
+            </div>
+        </div>
+        
+    </section>
+    <section>
+        <div id="meuCarrossel" class="carousel slide" data-bs-ride="carousel">
+            <ul class="carousel-indicators ">
+             <li data-bs-target="#meuCarrossel" data-bs-slide-to="0" class="active"> <li>
+             <li data-bs-target="#meuCarrossel" data-bs-slide-to="1"><li>
+             <li data-bs-target="#meuCarrossel" data-bs-slide-to="2"><li>
+            </ul>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class=" text-leght d-flex justify-content-center align-items-center carrousel-item">
+                            <div><img src="assets/img/carrocel/01.jpg" alt=""></div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                        <div class=" text-leght d-flex justify-content-center align-items-center carrousel-item">
+                            <div><img src="assets/img/carrocel/02.jpg" alt=""></div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                        <div class="text-leght d-flex justify-content-center align-items-center carrousel-item">
+                            <div><img src="assets/img/carrocel/03.jpg" alt=""></div>
+                        </div>
+                    </div>
+
+                </div>
+                <a class="carousel-control-prev  " href="#meuCarrossel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-dark"></span>
+                </a>
+                <a class="carousel-control-next " href="#meuCarrossel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-dark"></span>
+                </a>
+            </div>
+    </section>
+    <section>
+        <div class="text-center mt-5">
+            <h1>DESENHOS DISPONÍVEIS EM DESTAQUE</h1>
+        </div>
+
+        <div class="modal-">
+            <div class="modal_content">
+                <img src="assets/img/destaque/06.jpg" alt="" id="modal_img">
+            </div>
+            <span id="bt_close">&times;</span>
+        </div>
+        
+
+        <div class="conteiner-img ">
+            <div class="d-sm-flex  mt-5 justify-content-around img-block">
+                <div class="row">
+                    <img src="assets/img/destaque/01.jpg" class="small_img" alt="">
+                </div>
+                <div class="row">
+                    <img src="assets/img/destaque/02.jpg" class="small_img" alt="">
+                </div>
+                <div class="row">
+                    <img src="assets/img/destaque/03.jpg" class="small_img" alt="">
+                </div>
+            </div>
+            <div class="d-sm-flex  mt-5 justify-content-around">
+                <div class="row">
+                    <img src="assets/img/destaque/04.jpg" class="small_img" alt="">
+                </div>
+                <div class="row">
+                    <img src="assets/img/destaque/05.jpg" class="small_img" alt="">
+                </div>
+                <div class="row">
+                    <img src="assets/img/destaque/06.jpg" class="small_img" alt="">
+                </div>
+            </div>
+            <div class="d-sm-flex  mt-5 justify-content-around">
+                <div class="row">
+                    <img src="assets/img/destaque/07.jpg" class="small_img" alt="">
+                </div>
+                <div class="row">
+                    <img src="assets/img/destaque/08.jpg" class="small_img" alt="">
+                </div>
+                <div class="row">
+                    <img src="assets/img/destaque/09.jpg" class="small_img" alt="">
+                </div>
+            </div>
+            <div class="d-sm-flex  mt-5 justify-content-around">
+                <div class="row">
+                    <img src="assets/img/destaque/10.jpg" class="small_img" alt="">
+                </div>
+                <div class="row">
+                    <img src="assets/img/destaque/11.jpg" class="small_img" alt="">
+                </div>
+                <div class="row">
+                    <img src="assets/img/destaque/12.jpg" class="small_img" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mt-5 ">
+            <a href="tatuagens.html"> <button type="button" class="btn btn-danger fs-4" style="width: 200px; height: 50px;">Ver todas</button></a>
+        </div>
+     
+       
+    </section>
+    <section class=" bg-dark text-light" id="como_funciona" >
+        <div class="text-center" >
+            <h1>COMO FUNCIONA?</h1>
+        </div>
+       
+        <section>
+            <div class="passos">
+                <div class="passo_1">
+                    <h1>01</h1>
+                    <h2>Escolha sua </h2>
+                    <h2>tatuagem</h2>
+                    <p style="max-width: 270px;">Trabalhamos com varios desenhos, e se preferir desenhamos um especialmente para você.</p>
+                </div>
+                <div class="passo_2">
+                    <h1>02</h1>
+                    <h2>Conheça seu  </h2>
+                    <h2>artista</h2>
+                    <p style="max-width: 270px;">Escolha quem sera o artista responsável por fazer sua obra de arte.</p>
+                </div>
+                <div class="passo_3">
+                    <h1>03</h1>
+                    <h2>Reserva a data  </h2>
+                    <h2>da tatuagem</h2>
+                    <p style="max-width: 220px;">Agora chegou o momento de reservar sua data e horario para que não fique esperando.</p>
+                </div>
+                <div class="passo_4" style="margin-left: 30px;">
+                    <h1>04</h1>
+                    <h2>Sente na cadeira </h2>
+                    <h2>e aproveite</h2>
+                    <p style="max-width: 300px;">Chegou o grande momento! chega com meia hora de antecedência no stúdio e se prepare, relaxe e aproveite.</p>
+                </div>
+                
+            </div>
+            <div class="d-flex justify-content-center mt-5 ">
+                <a href="https://wa.me/5541991285367"> <button type="button" class="btn btn-danger fs-4" style="width: 350px; ">Fale com nosso tatuador</button></a>
+            </div>
+           
+        </section>
+    </section>
+    
+</main>
+
+<footer id="myFooter" > 
+    <div class="container d-flex align-items-end">
+        <div class="row">
+            <div class="col-sm-3">
+                <h2 class="logo"><a href=""> <img src="assets/img/logo/logo.png" alt="logo"></a></h2>
+                
+            </div>
+            <div class="col-sm-2">
+                <h5>Inicio</h5>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tatuadores.html">Tatuadores</a></li>
+                   
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <h5>Sobre-nós</h5>
+                <ul>
+                    <li><a href="sobre.html">Informações da Empresa</a></li>
+                </ul>
+            </div>
+           
+            <div class="modal" id="meuModal">
+                <div class="modal-dialog d-flex justify-content-center  bg-dark" id="">
+                    <div class="modal-header d-block" style="height: 300px;" >
+                        <div class="">
+                            <p>Telefone - (41)9999-9999</p><br>
+                            <p>E-mail - exemplo@gmailcom</p>
+                        </div>
+                        
+                    </div>
+               </div>
+            </div>
+
+            <div class="col-sm-2">
+                <h5>Suporte</h5>
+                <ul>
+                    <li><a href="Contato.html">FAQ</a></li>
+                    <li><a href="" data-bs-toggle="modal" data-bs-target="#meuModal">Telefones</a></li> 
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <div class="social-networks">
+                    <a href="" class="twitter"><i class="fa fa-twitter">
+                        <img src="assets/img/icon/icons8-twitter-48-removebg-preview.png" alt="">
+                    </i></a>
+                    <a href="" class="facebook"><i class="fa fa-facebook">
+                        <img src="assets/img/icon/icons8-facebook-48.png" alt="">
+                    </i></a>
+                    <a href="" class="instagram"><i class="fa fa-instagram">
+                        <img src="assets/img/icon/icons8-instagram-48.png" alt="">
+                    </i></a>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <p>© 2019 Copyright - Hugo Programador</p>
+    </div>
+</footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>

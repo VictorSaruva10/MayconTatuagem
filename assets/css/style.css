@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+header{
+    background-color: rgba(0,0,0,.10);
+}
+.nome_tela{
+    position: absolute;
+    top: 0%;
+    margin-top: 340px;
+    color: white;
+    margin-left: 80px;
+}
+.nome_tela h1{
+    font-size: 50px;
+ }
+ 
+.nome_tela p{
+   font-size: 40px;
+}
+
+
+.carrousel-item {
+    height: 300px;
+    margin-top: 200px;
+}
+.img_tela_principal img{
+    width: 100%;
+}
+.whats{
+    position: absolute;
+    z-index: 1000;
+    display: flex;
+    right: 0;
+    position: fixed;
+    margin-top: 500px;
+}
+#modal_img {
+    width: 45vw;
+    margin-top: 40px;
+   
+}
+.small_img{
+    cursor: pointer;
+    border-radius: 20px;
+}
+.modal-{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,.7);
+    display: flex;
+    top: 0;
+    position: fixed;
+    z-index: 1000;
+    visibility: hidden;
+    
+}
+.modal_content img{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+   
+}
+#bt_close{
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right:30px;
+    padding: 5px 10px;
+    font-size: 25px;
+    border: solid 1px #fff;
+}
+
+.modal_active{
+    visibility: visible;
+}
+
+
+#como_funciona{
+    
+    height: 40em;
+    margin-top: 40px;
+}
+#como_funciona h1{
+    margin-top: 70px;
+}
+.passos{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+    margin-top: 60px;
+}
+.passos h1{
+    font-size: 70px;
+}
+.passos h2{
+    font-size: 30px;
+}
+.passos p{
+    font-size: 20px;
+}
+
+
+/*===================================tatuadores*/
+.tatuadores {
+    display: flex;
+}
+.tatuador_1{
+    max-width: 400px;   
+}
+.tatuador_2{
+    max-width: 400px;  
+    margin-left: 30px; 
+}
+.conteiner-img img {
+   
+}
+/*==================================== escolha tatuagem*/
+
+.descricao_valor{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+/*==================================== contato*/
+
+.input-container {
+    position: relative;
+}
+textarea{
+    border: 0;
+    border-bottom: 2px solid #9e9e9e;
+    outline: none;
+    transition: .2s ease-in-out;
+    box-sizing: border-box;
+}
+
+textarea:focus {
+    border-bottom: 2px solid #26a69a;  
+  }
+input[type="text"],[type="email"],[type="tel"],[type="date"],[type="time"]{
+    border: 0;
+    border-bottom: 2px solid #9e9e9e;
+    outline: none;
+    transition: .2s ease-in-out;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+input:focus {
+    border-bottom: 2px solid #26a69a;  
+  }
+.mensagem{
+    margin-top: 30px;
+    width: 100%;
+    height: 200px;
+    resize: none;
+    
+}
+  
+
+
+.modal_form {
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    padding: 20px;
+    border-radius: 0 0 2px 2px;
+    background-color: #FFF;
+}
+
+/*==================================== maps*/
+.mapa{
+    margin-top: 70px;
+    text-align: center;
+}
+iframe{
+    width: 1000px;
+    height: 500px;
+}
+
+/*==================================== reserva*/
+.reserva input{
+   width: 100%;
+   height: 30px;
+}
+.reserva label{
+    font-size: 20px;
+    margin-top: 10px;
+ }
+/*==================================== footer*/
+.footer{
+    height: 300px;
+    background-color: black;
+    width: 100%;
+    
+}
+#modalTelefone{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,.7);
+    display: flex;
+    margin-right: 90px;
+    top: 0;
+    position: fixed;
+    z-index: 1000;
+    text-align: center;
+    visibility: hidden;
+}
+
+#myFooter {
+    background-color: #3c3d41;
+    color: white;
+    padding-top: 30px;
+}
+
+#myFooter .footer-copyright {
+    background-color: #333333;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .instagram:hover {
+    color: purple;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+#myFooter .btn {
+    color: white;
+    background-color: #d84b6b;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+
+
+
+/* CSS utilizado para posicionar o rodapé no final da página. */
+/* Você pode remover isso. */
+
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
+
+
+@media (max-width: 400px)
+{
+    .passos{
+        display: block;
+       
+    }
+
+    #como_funciona{
+        height: 105em;
+    }
+    #myFooter {
+        text-align: center;
+    }
+    .tatuadores {
+        display: block;
+        margin-right: 20px;
+        
+   
+    }
+    .tatuadores img{
+        width:100%;
+    }
+   
+    #modal_img {
+        width: 100%;
+        margin-top: 100px;
+       
+    }
+    .modal_form {
+        width: 300px;
+     
+    
+    }
+    iframe{
+        width: 90%;
+        height: 500px;
+    }
+    #myFooter .social-networks {
+        display: flex;
+        justify-content: center;
+    }
+    .conteiner-img img {
+        margin-top: 50px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nome_tela{
+        position: absolute;
+        top: 0%;
+        margin-top: 200px;
+        color: rgb(255, 255, 255);
+        margin-left: 40px;
+    }
+    .nome_tela h1{
+        font-size: 20px;
+     }
+     .nome_tela p{
+        font-size: 20px;
+     }
+  
+}
